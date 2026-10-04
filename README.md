@@ -51,7 +51,7 @@ Time: 1790914595 55 Claimed capacity: 96 Volts: 10130000
 Fell under low voltage at: 1790914595
 ```
 
-In this example, the battery lasted for less than a minute (55 seconds) before hitting a pre-defined low voltage.  Units are always in seconds so be prepared to divide by 60.  The battery voltage fell too low while it was still reporting itself as 96% full.
+In this example, the battery lasted for less than a minute (55 seconds) before hitting a pre-defined low voltage.  Units are always in seconds (so be prepared to divide by 60).  The battery voltage fell too low while it was still reporting itself as 96% full.
 
 Here, the threshold used was 10.5v (10500000) but that can be configured as needed in the program (via a constant) to avoid hard shutoffs during testing.
 
