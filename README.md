@@ -1,5 +1,5 @@
 # battery-tester.sh
-Test how long old laptop batteries last. Especially off-brand batteries. The internal controllers of those cannot be trusted to report percentages correctly, resulting in abrupt laptop shutoffs when you are not near 0%.  Unlike original batteries, these do not calibrate themselves to the correct 0% and 100% after a simple drain and charge.
+Test how long old laptop batteries last. In off-brand batteries the internal controllers cannot be trusted to report percentages correctly, resulting in abrupt laptop shutoffs when you are not near 0%.  Unlike original batteries, these do not calibrate themselves to the correct 0% and 100% after a simple drain and charge.
 
 This program manually gives you the amount of time a battery lasts, and percentage that it died at, so you can write it on a sticker on the battery.  Now you have a basis to compare used batteries and keep the best one.
 
