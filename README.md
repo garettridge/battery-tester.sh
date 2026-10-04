@@ -7,7 +7,7 @@ This program manually gives you the amount of time a battery lasts, and percenta
 
 Just set battery-tester.sh to executable and run it.
 
-Example:
+Or, example:
 
 ```bash
 if ! [ -d "$HOME/.local/bin" ]
